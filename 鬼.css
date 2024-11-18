@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'HistoryOfFilms';
+    src: url(LHANDW.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Polaroid';
+    src: url(BenguiatITCbyBT-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PolaroidContent';
+    src: url(LCALLIG.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Title';
+    src: url(ARLRDBD.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Content';
+    src: url(方正粗金陵繁体.TTF);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'P';
+    src: url(STARK.OTF);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: grey;
+}
+header {
+    background-color: grey;
+    margin-top:20px;
+    height:100px;
+    width:100%;
+    border-radius: 10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color:black;
+    font-family: "Content",Arial, Helvetica, sans-serif;
+    margin-top:85px;
+    font-size:60px;
+}
+header a {
+    color:black;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: none;
+}
+.info {
+    width:50%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info p {
+    font-family: "Content",Arial, Helvetica, sans-serif;
+    font-size: 27px;
+    text-align:left;
+    line-height: 2em;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+.ISHSH {
+    display: flex;
+}
+.music {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.music img {
+    max-width: 60%;
+    margin-top: 80px;
+    height: auto;
+    border-radius: 10px;
+}
+.music audio {
+    color:grey;
+    width: 60%;
+    margin-top: 1em;
+    border-radius: 10px;
+}
