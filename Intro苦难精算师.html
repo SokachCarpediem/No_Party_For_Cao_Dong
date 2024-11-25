@@ -4,45 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intro 苦难精算师</title>
-    <link rel='stylesheet' href='Intro2.css'>
+    <link rel = 'stylesheet' href = 'Intro2.css'>
 </head>
 <body>
     <header>
-        <h1><a href='No_Party_For_Cao_Dong.html'>Intro 苦难精算师</a></h1>
+        <h1>Intro 苦难精算师</h1>
     </header>
     
     <main>
         <section class="ISHSH">
             <div class="music">
-                <!-- 将播放按钮放在图片上方 -->
-                <div class="image-container">
-                    <img src="2.jpg" alt="瓦合">
-                    <!-- 自定义播放按钮 -->
-                    <button class="play-button" onclick="togglePlay()">▶️</button>
-                </div>
-                <!-- 隐藏默认音频控件 -->
-                <audio id="audio">
+                <img src="2.jpg" alt="瓦合">
+                <audio controls>
                     <source src="Intro苦难精算师.mp3" type="audio/mpeg">
-                    您的浏览器不支持 audio 元素。
                 </audio>
-            </div>
         </section>
     </main>
-
-    <script>
-        // JavaScript 控制播放和暂停
-        const audio = document.getElementById('audio');
-        const playButton = document.querySelector('.play-button');
-
-        function togglePlay() {
-            if (audio.paused) {
-                audio.play();
-                playButton.textContent = '⏸️'; // 更改按钮为暂停符号
-            } else {
-                audio.pause();
-                playButton.textContent = '▶️'; // 更改按钮为播放符号
-            }
-        }
-    </script>
 </body>
 </html>
